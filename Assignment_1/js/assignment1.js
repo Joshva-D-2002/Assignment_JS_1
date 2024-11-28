@@ -17,15 +17,15 @@ let myFunction = function(){
     return 20;
 };
 
-console.log(num+':'+  typeof num);
-console.log(str+':'+ typeof str);
-console.log(bool+':'+ typeof bool);
-console.log(arr+':'+ typeof arr);
-console.log(obj+':'+ typeof obj);
-console.log(varUndefined +':'+ typeof varUndefined);
-console.log(varNull+':'+ typeof varNull);
-console.log(bigInt+':'+ typeof bigInt);
-console.log(myFunction()+':'+ typeof myFunction);
+console.log(num, typeof num);
+console.log(str, typeof str);
+console.log(bool, typeof bool);
+console.log(arr, typeof arr);
+console.log(obj, typeof obj);
+console.log(varUndefined, typeof varUndefined);
+console.log(varNull, typeof varNull);
+console.log(bigInt, typeof bigInt);
+console.log(myFunction(), typeof myFunction);
 
 // 2. show an alert message on the loading of the website.
 
